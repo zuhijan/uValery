@@ -1,0 +1,12 @@
+@import url('../../vendor/normalize.css');
+@import url('./header/header.css');
+@import url('./header/vacancy.css');
+@import url('./header/tender.css');
+@import url('./header/footer.css');
+
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
