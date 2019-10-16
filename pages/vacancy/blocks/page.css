@@ -1,4 +1,4 @@
-@import url('../../vendor/normalize.css');
+@import url('../../../vendor/normalize.css');
 @import url('./header/header.css');
 @import url('./vacancy/vacancy.css');
 @import url('./banner/banner.css');
