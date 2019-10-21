@@ -1,7 +1,6 @@
 @import url('../../../vendor/normalize.css');
 @import url('./header/header.css');
-@import url('./vacancy/vacancy.css');
-@import url('./banner/banner.css');
+@import url('./profile-org/profile-org.css');
 @import url('./tender/tender.css');
 @import url('./footer/footer.css');
 @font-face {
