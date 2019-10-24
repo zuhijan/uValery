@@ -1,5 +1,5 @@
 {
-  "name": "project11",
+  "name": "uvalery",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zuhijan/project11.git"
+    "url": "git+https://github.com/zuhijan/uValery.git"
   },
   "author": "Egor Shkirya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zuhijan/project11/issues"
+    "url": "https://github.com/zuhijan/uValery/issues"
   },
-  "homepage": "https://github.com/zuhijan/project11#readme",
+  "homepage": "https://github.com/zuhijan/uValery#readme",
   "devDependencies": {
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
