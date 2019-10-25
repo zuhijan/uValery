@@ -35,7 +35,7 @@
     
 }
 .banner__button {
-    background-color: #72B62B;
+    background-color: #72B62B;  
     box-shadow: 0px 14px 24px rgba(113, 181, 41, 0.15);
     border-radius: 60px;
     border: 0;
@@ -49,11 +49,17 @@
     font-family: 'Geometria-bold';
     color: #FFFFFF;
     transition: background-color 0.2s ease-in-out;
+    margin-top: 30px;
 }
 .banner__button:hover {
     background-color: #F1EA68;;
-    color: #72B62B;;
+    color: #72B62B;
 }
+.banner__button_bc {
+    background-color: rgba(114, 182, 43, 0.1);
+    color: #72B62B;
+}
+
 .banner__list {
     list-style-type: none;
     margin-top: 9px;
@@ -72,5 +78,8 @@
     line-height: 19px;
     color: #72B62B;
     margin-top: 6px;
-    margin-bottom: 30px;
+    
+}
+.banner__container-contancts_hidden {
+    display: none;
 }

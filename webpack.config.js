@@ -52,32 +52,37 @@ module.exports = {
         new MiniCssExtractPlugin({ filename: 'style.[contenthash].css' }),
         new HtmlWebpackPlugin({ // настроили плагин
             inject: false,
-            hash: true,
+            // hash: true,
             template: './src/pages/add-resume/add-resume.html',
+            // chunks: ['index'],
             filename: 'add-resume.html'
         }),
         new HtmlWebpackPlugin({ // настроили плагин
             inject: false,
-            hash: true,
+            // hash: true,
             template: './src/pages/add-vacancy/add-vacancy.html',
+            // chunks: ['add-vacancy'],
             filename: 'add-vacancy.html'
         }),        
         new HtmlWebpackPlugin({ // настроили плагин
             inject: false,
-            hash: true,
+            // hash: true,
             template: './src/pages/default/default.html',
+            // chunks: ['default'],
             filename: 'default.html'
         }),
         new HtmlWebpackPlugin({ // настроили плагин
             inject: false,
-            hash: true,
+            // hash: true,
             template: './src/pages/profile-org/profile-org.html',
+            // chunks: ['profile-org'],
             filename: 'profile-org.html'
         }),
         new HtmlWebpackPlugin({ // настроили плагин
             inject: false,
-            hash: true,
+            // hash: true,
             template: './src/pages/vacancy/vacancy.html',
+            // chunks: ['vacancy'],
             filename: 'vacancy.html'
         }),
         new OptimizeCssAssetsPlugin({
