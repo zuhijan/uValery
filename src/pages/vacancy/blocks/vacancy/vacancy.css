@@ -54,7 +54,43 @@
     display: inline-block;
     margin-right: 51px;
 }
-.vacancy__img {
-    margin-right: 5px;
-
+.vacancy__checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.vacancy__sublabel {
+    position: relative;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+    padding-left: 30px;
+    padding-right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+.vacancy__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 1px solid #72B62B;
+}
+.vacancy__checkbox:checked ~ .vacancy__checkmark {
+    background-color: #72B62B;     
+    background-image: url('../../../../images/checked.svg');
+    background-position: center;    
+}
+.vacancy__field-checkbox {
+    position: relative;
+    display: flex;    
+    align-items: flex-start;
+    padding-right: 50px;
+    padding-bottom: 5px;
 }

@@ -56,10 +56,14 @@
                         class="vacancy__description description_border">Открытость</span> <span
                         class="vacancy__description description_border">Целеустремленность</span></p>
                 <h4 class="vacancy__subtitle">Форма занятости:</h4>
-                <p class="vacancy__grafic"><img src="<%=require('../../images/galka.svg')%>" alt="галочка"
-                        class="vacancy__img"> 5/2</p>
-                <p class="vacancy__grafic"><img src="<%=require('../../images/galka.svg')%>" alt="галочка"
-                        class="vacancy__img"> 2/2</p>
+                <div class="vacancy__field-checkbox">
+                    <label for="52" class="vacancy__sublabel">
+                        <input class="vacancy__checkbox" type="checkbox" id="52" />
+                        <span class="vacancy__checkmark"></span>5/2</label>
+                    <label for="22" class="vacancy__sublabel">
+                        <input class="vacancy__checkbox" type="checkbox" id="22" />
+                        <span class="vacancy__checkmark"></span>2/2</label>
+                </div>
                 <h4 class="vacancy__subtitle">График работы:</h4>
                 <p class="vacancy__description">Полный день</p>
             </div>
