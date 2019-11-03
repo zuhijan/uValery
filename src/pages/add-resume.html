@@ -12,18 +12,21 @@
 <body class="page">
     <main class="main">
         <header class="header">
-            <a href="index.html" class="header__logo-link"> <img src="<%=require('../images/лого.svg')%>" alt="Логотив" class="header__logo"></a>
-            <div class="header__container">
-                <a href="add-resume.html" class="header__link">Резюме</a>
-                <a href="vacancy.html" class="header__link">Вакансии</a>
-                <a href="profile-org.html" class="header__link">Блог</a>
-                <a href="default.html" class="header__link">О Проекте</a>
+            <a href="index.html" class="header__logo-link"> <img src="<%=require('../images/лого.svg')%>" alt="Логотив"
+                    class="header__logo"></a>
+            <div class="header__container-big">
+                <div class="header__container">
+                    <a href="add-resume.html" class="header__link">Резюме</a>
+                    <a href="vacancy.html" class="header__link">Вакансии</a>
+                    <a href="profile-org.html" class="header__link">Блог</a>
+                    <a href="default.html" class="header__link">О Проекте</a>
+                </div>
             </div>
             <button class="header__button">Войти</button>
         </header>
         <section class="add-resume">
             <h2 class="add-resume__title">Добавление резюме</h2>
-            <form action="" class="add-resume__form">
+            <form action="url" class="add-resume__form">
                 <div class="add-resume__main">
                     <h3 class="add-resume__subtitle">О тебе</h3>
                     <div class="add-resume__column-container">
@@ -37,8 +40,7 @@
                                 </div>
                                 <div class="add-resume__field">
                                     <label for="date" class="add-resume__label">Когда твой день рождения?</label>
-                                    <input class="add-resume__input" type="date" id="date" placeholder="дд.мм.гггг"
-                                        required />
+                                    <input class="add-resume__input" type="date" id="date" required />
                                 </div>
 
                             </div>
@@ -83,7 +85,8 @@
                         </div>
                         <div class="add-resume__container">
                             <div class="add-resume__container add-resume__load-container">
-                                <img src="<%=require('../images/foto-vector.svg')%>" alt="фото" class="add-resume__load-img">
+                                <img src="<%=require('../images/foto-vector.svg')%>" alt="фото"
+                                    class="add-resume__load-img">
                                 <button class="add-resume__load-button">Выбрать фото</button>
                             </div>
                         </div>
@@ -188,9 +191,9 @@
 
                     <div class="add-resume__string-container">
                         <div class="add-resume__field">
-                            <label for="responsibility" class="add-resume__label">Место работы
+                            <label for="work" class="add-resume__label">Место работы
                             </label>
-                            <input class="add-resume__input" type="text" id="responsibility"
+                            <input class="add-resume__input" type="text" id="work"
                                 pattern="^[А-ЯЁ][а-яё]*(-[А-ЯЁ][а-яё]*)?$" minlength="2" maxlength="20"
                                 placeholder="Администратор центра" required />
                         </div>
@@ -213,22 +216,22 @@
                     </div>
                     <div class="add-resume__string-container">
                         <div class="add-resume__field">
-                            <label for="responsibility" class="add-resume__label">Место работы
+                            <label for="work2" class="add-resume__label">Место работы
                             </label>
-                            <input class="add-resume__input" type="text" id="responsibility"
+                            <input class="add-resume__input" type="text" id="work2"
                                 pattern="^[А-ЯЁ][а-яё]*(-[А-ЯЁ][а-яё]*)?$" minlength="2" maxlength="20"
                                 placeholder="Администратор центра" required />
                         </div>
                         <div class="add-resume__field">
-                            <label for="responsibility" class="add-resume__label">Обязанности
+                            <label for="responsibility2" class="add-resume__label">Обязанности
                             </label>
-                            <input class="add-resume__input" type="text" id="responsibility"
+                            <input class="add-resume__input" type="text" id="responsibility2"
                                 pattern="^[А-ЯЁ][а-яё]*(-[А-ЯЁ][а-яё]*)?$" minlength="2" maxlength="20"
                                 placeholder="Администратор центра" required />
                         </div>
                         <div class="add-resume__field add-resume__field_select">
-                            <label for="experience" class="add-resume__label">Опыт работы</label>
-                            <select class="add-resume__select" id="experience">
+                            <label for="experience2" class="add-resume__label">Опыт работы</label>
+                            <select class="add-resume__select" id="experience2">
                                 <option value="without-experience">без опыта</option>
                                 <option value="1year">От 1 года до 3 лет</option>
                                 <option value="3year">От 3 до 6 лет</option>
@@ -238,22 +241,22 @@
                     </div>
                     <div class="add-resume__string-container">
                         <div class="add-resume__field">
-                            <label for="responsibili ty" class="add-resume__label">Место работы
+                            <label for="work3" class="add-resume__label">Место работы
                             </label>
-                            <input class="add-resume__input " type="text" id="responsibility"
+                            <input class="add-resume__input " type="text" id="work3"
                                 pattern="^[А-ЯЁ][а-яё]*(-[А-ЯЁ][а-яё]*)?$" minlength="2" maxlength="20"
                                 placeholder="Администратор центра" required />
                         </div>
                         <div class="add-resume__field">
-                            <label for="responsibility" class="add-resume__label">Обязанности
+                            <label for="responsibility3" class="add-resume__label">Обязанности
                             </label>
-                            <input class="add-resume__input" type="text" id="responsibility"
+                            <input class="add-resume__input" type="text" id="responsibility3"
                                 pattern="^[А-ЯЁ][а-яё]*(-[А-ЯЁ][а-яё]*)?$" minlength="2" maxlength="20"
                                 placeholder="Администратор центра" required />
                         </div>
                         <div class="add-resume__field add-resume__field_select">
-                            <label for="experience" class="add-resume__label">Опыт работы</label>
-                            <select class="add-resume__select" id="experience">
+                            <label for="experience3" class="add-resume__label">Опыт работы</label>
+                            <select class="add-resume__select" id="experience3">
                                 <option value="without-experience">без опыта</option>
                                 <option value="1year">От 1 года до 3 лет</option>
                                 <option value="3year">От 3 до 6 лет</option>
@@ -310,11 +313,7 @@
                     <button class="add-resume__save-button">Сохранить </button>
                 </div>
             </form>
-
-            </div>
         </section>
-
-
     </main>
     <footer class="footer">
         <div class="footer__container">

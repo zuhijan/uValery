@@ -151,6 +151,8 @@
 }
 .add-resume__checkbox:checked ~ .add-resume__checkmark {
     background-color: #72B62B;     
+    background-image: url('../../../images/checked.svg');
+    background-position: center;    
 }
 .add-resume__field {
     position: relative;

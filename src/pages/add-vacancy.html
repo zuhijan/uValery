@@ -12,12 +12,15 @@
 <body class="page">
     <main class="main">
         <header class="header">
-            <a href="index.html" class="header__logo-link"> <img src="<%=require('../images/лого.svg')%>" alt="Логотив" class="header__logo"></a>
-            <div class="header__container">
-                <a href="add-resume.html" class="header__link">Резюме</a>
-                <a href="vacancy.html" class="header__link">Вакансии</a>
-                <a href="profile-org.html" class="header__link">Блог</a>
-                <a href="default.html" class="header__link">О Проекте</a>
+            <a href="index.html" class="header__logo-link"> <img src="<%=require('../images/лого.svg')%>" alt="Логотив"
+                    class="header__logo"></a>
+            <div class="header__container-big">
+                <div class="header__container">
+                    <a href="add-resume.html" class="header__link">Резюме</a>
+                    <a href="vacancy.html" class="header__link">Вакансии</a>
+                    <a href="profile-org.html" class="header__link">Блог</a>
+                    <a href="default.html" class="header__link">О Проекте</a>
+                </div>
             </div>
             <button class="header__button">Войти</button>
         </header>
@@ -25,7 +28,7 @@
             <h2 class="add-vacancy__title">Добавить вакансию</h2>
             <div class="add-vacancy__main">
 
-                <form action="" class="add-vacancy__form">
+                <form action="url" class="add-vacancy__form">
                     <h3 class="add-vacancy__subtitle">Портрет будущего члена команды</h3>
                     <div class="add-vacancy__string-container">
                         <div class="add-vacancy__field ">
@@ -172,7 +175,6 @@
                     </div>
                     <button class="add-vacancy__save-button">Сохранить </button>
                 </form>
-            </div>
             </div>
         </section>
 
