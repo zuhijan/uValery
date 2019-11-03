@@ -53,35 +53,42 @@ module.exports = {
         new HtmlWebpackPlugin({ // настроили плагин
             inject: false,
             // hash: true,
-            template: './src/pages/add-resume/add-resume.html',
+            template: './src/index.html',
+            // chunks: ['index'],
+            filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({ // настроили плагин
+            inject: false,
+            // hash: true,
+            template: './src/pages/add-resume.html',
             // chunks: ['index'],
             filename: 'add-resume.html'
         }),
         new HtmlWebpackPlugin({ // настроили плагин
             inject: false,
             // hash: true,
-            template: './src/pages/add-vacancy/add-vacancy.html',
+            template: './src/pages/add-vacancy.html',
             // chunks: ['add-vacancy'],
             filename: 'add-vacancy.html'
         }),        
         new HtmlWebpackPlugin({ // настроили плагин
             inject: false,
             // hash: true,
-            template: './src/pages/default/default.html',
+            template: './src/pages/default.html',
             // chunks: ['default'],
             filename: 'default.html'
         }),
         new HtmlWebpackPlugin({ // настроили плагин
             inject: false,
             // hash: true,
-            template: './src/pages/profile-org/profile-org.html',
+            template: './src/pages/profile-org.html',
             // chunks: ['profile-org'],
             filename: 'profile-org.html'
         }),
         new HtmlWebpackPlugin({ // настроили плагин
             inject: false,
             // hash: true,
-            template: './src/pages/vacancy/vacancy.html',
+            template: './src/pages/vacancy.html',
             // chunks: ['vacancy'],
             filename: 'vacancy.html'
         }),
